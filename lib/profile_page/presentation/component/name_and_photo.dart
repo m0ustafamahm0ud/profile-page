@@ -56,7 +56,6 @@ class NameAndPhotoComponent extends StatelessWidget {
                             child: const RatingArea()),
 
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
                           children: List.generate(
                             items.length,
                             (index) => FadeIn(
@@ -124,7 +123,7 @@ class NameAndPhotoComponent extends StatelessWidget {
 
               /// BUTTONS
               Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   FadeIn(
                     delay: const Duration(milliseconds: 350),
@@ -132,7 +131,7 @@ class NameAndPhotoComponent extends StatelessWidget {
                         text: 'Add as Friend',
                         icon: 'assets/images/user-plus.svg'),
                   ),
-                  const Spacer(),
+                  // const Spacer(),
                   FadeIn(
                     delay: const Duration(milliseconds: 450),
                     child: const CustomButton(

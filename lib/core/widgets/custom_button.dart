@@ -37,13 +37,11 @@ class CustomButton extends StatelessWidget {
                 // color: primaryColor,
                 color: AppConstance.whiteColor,
               ),
-              const SizedBox(
-                width: 15,
-              ),
+
               Expanded(
                 child: Text(
                   text,
-                  // textAlign: TextAlign.center,
+                  textAlign: TextAlign.center,
                   style: const TextStyle(
                       color: AppConstance.whiteColor,
                       fontWeight: FontWeight.bold,

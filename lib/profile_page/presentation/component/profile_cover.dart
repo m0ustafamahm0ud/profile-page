@@ -39,6 +39,7 @@ class ProfileCover extends StatelessWidget {
             top: 45,
             left: 5,
             child: IconButton(
+              // ignore: avoid_print
               onPressed: () => print('Pop'),
               // ignore: prefer_const_constructors
               icon: SvgPicture.asset(
