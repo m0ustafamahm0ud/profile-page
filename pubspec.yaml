@@ -24,9 +24,7 @@ dependencies:
   firebase_core: ^2.2.0
   cloud_firestore: ^4.0.5
   flutter_svg: ^1.1.6
-  draggable_home: ^1.0.4
   flutter_rating_bar: ^4.0.1
-  lottie: 
 
 dev_dependencies:
   flutter_test:
