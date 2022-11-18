@@ -6,7 +6,7 @@ import '../../../core/utils/enums.dart';
 import '../../../core/utils/services.dart';
 import '../../../core/widgets/loading_widget.dart';
 
-import '../component/profile_page_page.dart';
+import '../component/profile_page_body.dart';
 import '../controller/get_user_info_controller/get_user_info_bloc.dart';
 import '../controller/get_user_info_controller/get_user_info_events.dart';
 import '../controller/get_user_info_controller/get_user_info_states.dart';
